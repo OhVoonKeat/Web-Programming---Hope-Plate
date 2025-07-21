@@ -1,0 +1,30 @@
+IMPORTANT!!!
+**Read and follow the instructions below before start running our website. (Hope Plate)
+
+This folder has PHP files, CSS files, and Configuration Settings files.
+
+There are two Configuration Settings files: php and sendmail.
+
+The following steps are important to make our additional feature, sending emails work:
+1. Copy the sendmail file in this folder.
+2. Go to XAMPP, and select the sendmail folder.
+3. Paste the Configuration file (sendmail) inside the folder to replace the default file.
+4. Copy the php file in this folder.
+5. Go to XAMPP, and select the php folder.
+6. Paste the Configuration file (php) inside the folder to replace the default file.
+
+**IMPORTANT: YOU ARE ADVISED TO MAKE A BACKUP COPY OF BOTH FILES BEFORE EXECUTING THE STEPS ABOVE... 
+ 
+
+Feel free to remove both files and use back the default one after you do not want to visit our website anymore... (or after finished marking)
+
+
+Thank you for visiting our website!
+
+
+From Hope Plate admin, 
+Oh Voon Keat
+Lee Seng Wai
+
+
+

@@ -1,0 +1,521 @@
+/* Css styles here */
+body {
+	background-color: #FFE5B4;
+	font-family: "Comic Sans MS", Times New Roman, Inter;
+	font-size: 20px;
+	margin: 0;
+	padding: 0;
+}
+
+.header-container, .footer {
+	border-bottom: 5px double black;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 5px;
+}
+
+.header-container {
+    background-color: #FFE5B4;
+    background-image: url("Images/HeaderBackgroundGif.gif");
+    background-position: center;
+    left: 0;
+    margin: 0;
+    padding: 0;
+	position: fixed;
+	right: 0;
+	top: 0;
+	z-index: 2;
+}
+
+.top-nav,.admin-top-nav {
+	display: flex;
+	font-size: 25px;
+	gap: 30px;
+}
+
+.top-nav a, .admin-top-nav a {
+	color: black;
+	text-decoration: none;
+	padding: 10px 30px;
+}
+
+.top-nav a:hover, .admin-top-nav a:hover {
+	color: white;
+}
+
+.admin-top-nav {
+	align-items: center;
+	flex-direction: column;
+	line-height: 0.25;
+	text-align: left;
+}
+
+.admin-top-nav a {
+	padding: 0;
+}
+
+.nav-title {
+	font-family: "Trebuchet MS", Verdana, Times New Roman;
+	font-size: 50px;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.profile-button {
+	align-items: center;
+	border-radius: 50%;
+	display: flex;
+	height: 65px;
+	justify-content: center;
+	overflow: hidden;
+	padding-right: 30px;
+	width: 65px;
+}
+
+.profile-button img {
+	height: 60px;
+	width: 60px;
+}
+
+.company-section {
+	align-items: center;
+	border-bottom: 5px double black;
+	background-image: url("Images/CompanyBackgroundGif.gif");
+	display: flex;
+	flex-direction: column;
+	font-weight: bold;
+	justify-content: center;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 170px;
+	padding-bottom: 40px;
+}
+
+.company-section img {
+	display: block;
+	height: auto;
+	width: 60%;
+}
+
+.company-section table {
+	border-spacing: 0;
+	margin: 0 auto;
+	width: 80%;
+}
+
+.company-section td {
+	padding: 5px;
+}
+
+.introduction-container, .mission-container, .goal-container {
+	align-items: center;
+	background-image: url("Images/Rice Field.jpg");
+	background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: white;
+	color: black;
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	font-size: 30px;
+	font-family: "Impact";
+    height: 60vh;
+    justify-content: center;
+    margin: 0;
+    overflow: hidden;
+    width: 100%;        
+}
+
+.mission-container, .goal-container {
+	background-image: url("Images/Rice.jpg");
+	border-top: 5px double black;
+	border-bottom: 5px double black;
+}
+
+.goal-container {
+	background-image: url("Images/Rice 2.jpg");
+}
+
+.content {
+	align-items: center;
+	border-top: 5px double black;
+	background-image: url("Images/CompanyBackgroundGif.gif");
+	background-position: center;
+	display: flex;
+	flex-direction: row;
+	gap: 60px;
+	justify-content: center;
+	line-height: 1.5;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	text-align: justify;
+}
+
+.content p {
+	max-width: 45%;
+}
+
+.content img {
+	align-items: center;
+	height: auto;
+	justify-content: center;
+	width: 40%;	
+}
+
+.footer {
+	border: none;
+	border-top: 5px solid black;
+	background-image: url("Images/HeaderBackgroundGif.gif");
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+.footer button {
+	background-color: transparent;
+	border: none;
+}
+
+.form-title, .form-success, .form-option, .form-register, .form, .edit-profile {
+	border-radius: 10px;
+	box-sizing: border-box;
+	color: black;
+    max-width: 900px;
+    margin: 20px auto;
+    margin-bottom: 80px;
+    padding: 20px;
+    padding-top: 130px;
+    width: 100%;
+}
+
+.form-title, .form-success, .form-option, .form-register, .form-login, .edit-profile {
+	background-image: url("Images/CompanyBackgroundGif.gif");
+	background-size: cover;
+	max-width: none;
+	margin-bottom: 0px;
+	padding-bottom: 10px
+}
+
+.form-title h1, .form-success h1, .form-option h1, .form-register h1, .form-login h1, .edit-profile h1{
+	font-family: "Impact";
+	font-size: 60px;
+	margin-bottom: 10px;
+	padding-top: 0px;
+	text-align: center;
+}
+
+.form {
+	background-color: white;
+	padding: 50px;
+	padding-bottom: 30px;
+}
+
+.form-group {
+	margin-bottom: 15px;
+}
+
+.form-group label{
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+	box-sizing: border-box;
+	font-size: 20px;
+	font-family: "Comic Sans MS", Times New Roman, Inter;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	width: 100%;
+}
+
+.form-group textarea {
+	resize: none;
+}
+
+.form-group button, .form-success button, .form-register button, .profile button, .edit-profile button {
+	border: none;
+	border-radius: 4px;
+	background-color: black;
+	color: white;
+	cursor: pointer;
+	font-family: "Comic Sans MS", Times New Roman, Inter;
+	font-size: 15px;
+	padding: 10px;
+	margin-top: 30px;
+	width: 100%;
+}
+
+.form-success button, .form-register button, .form-login button {
+	background-color: white;
+	color: black;
+	width: 10%;
+}
+
+.form-register button, .form-login button {
+	width: 170%;
+}
+
+.form-option a {
+	color: white;
+	text-decoration: none;
+}
+
+.form-group button:hover {
+	background-color: #228B22;
+}
+
+.form-success button:hover, .form-register button:hover, .form-login button:hover {
+	background-color: black;
+	color: white;	
+}
+
+.form-option a:hover {
+	background-color: transparent;
+	color: black;
+}
+
+.form-success, .form-option, .form-register, .form-login, .profile, .edit-profile {
+	align-items: center;
+	background-image: url("Images/SuccessBackgroundGif.gif");
+	background-position: center;
+	background-size: cover;
+	border-radius: 0;
+	box-sizing: border-box;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	justify-content: center;
+	margin: 0;
+	max-width: 100%;
+	overflow: hidden;
+	padding: 0;
+	width: 100vw;
+}
+
+.form-option {
+	background-image: url("Images/OptionsBackgroundGif.gif");
+	line-height: 1.25;
+}
+
+.form-register {
+	align-items: flex-start;
+	background-image: url("Images/RegisterLoginBackgroundGif.gif");
+	display: flex;
+	height: 100vh;
+	padding: 55px;
+}
+
+.form-login {
+	align-items: flex-start;
+	background-image: url("Images/RegisterLoginBackgroundGif.gif");
+	display: flex;
+	padding: 55px;
+}
+
+.form-register-login, .profile-content {
+	align-items: flex-start;
+	display: flex;
+	justify-content: space-between;
+	padding-bottom: 5px;
+	width: 60%;
+}
+
+.left-form, .right-form {
+	align-items: flex-start;
+	display: flex;
+	flex-direction: column;
+	width: 60%;
+}
+
+.left-form input, .right-form input { 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.right-form input {
+	width: 300px;
+}
+
+.profile-pic {
+	align-items: center;
+	border-radius: 50%;
+	display: flex;
+	height: 155px;
+	justify-content: center;
+	margin-top: -50px;
+	overflow: hidden;
+	width: 155px;
+}
+
+.profile-pic img {
+	height: 150px;
+	width: 150px;
+}
+
+.profile {
+	background-image: url('Images/ProfileBackgroundGif.gif');
+	color: black;
+}
+
+.profile h1 {
+	margin: 0;
+}
+
+.profile h2 {
+	margin: 0;
+}
+
+.profile button {
+	background-color: black;
+	color: white;
+	width: 50%;
+	white-space: nowrap;
+}
+
+.profile button:hover, .edit-profile button:hover {
+	background-color: white;
+	color: black;
+}
+
+.profile-content {
+	box-sizing: border-box;
+	padding-left: 400px;
+	padding-right: 400px;
+	text-align: left;
+	width: 100%;
+}
+
+.edit-profile {
+	background-image: url('Images/ProfileBackgroundGif.gif');
+	color: black;
+	height: auto;
+	top: 0;
+	padding: 30px;
+}
+
+.edit-profile h1 {
+	margin-top: 100px;
+}
+
+.link, .company-section a {
+	color: black;
+}
+
+.link:hover, .company-section a:hover {
+	color: white;
+}
+
+.icon {
+	display: flex;
+	gap: 40px;
+	margin: 50px;
+	margin-bottom: 80px;
+}
+
+.icon button {
+	border: none;
+	background-color: transparent;
+	cursor: pointer;
+	height: 50px;
+   	padding: 0;
+   	width: 50px;
+}
+
+.icon img {
+	display: block;
+	height: 100%;
+	max-width: 100%;
+    max-height: 100%;
+    width: 100%;
+}
+
+.carousel {
+	height:100%;
+    height:500px;
+    margin: 0 auto;
+    max-width: 1000px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.carousel-images {
+    display: flex; 
+    height:100%;
+    transition: transform 0.5s ease; 
+}
+
+.carousel-item {
+	flex-shrink: 0; 
+    position: relative; 
+    width: 100%; 
+}
+
+.carousel img {
+	height:100%;
+	object-fit:cover;
+    width: 100%; 
+}
+
+.bottom-left {
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.5);
+	box-sizing: border-box; 
+	color: white;
+	left: 0;
+    position: absolute;
+    padding: 10px;
+    text-align: left; 
+    width: 100%; 
+}
+
+.arrow {
+	border: none;
+	background: rgba(0, 0, 0, 0.5);
+	color: white;
+	cursor: pointer;
+    position: absolute;
+    padding: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+}
+
+.arrow.left {
+    left: 10px;
+}
+
+.arrow.right {
+    right: 10px;
+}
+
+.event-content {
+	background-image: url("Images/CompanyBackgroundGif.gif");
+	background-position: center;
+	background-size: cover;
+}
+
+.event-content h1 {
+	margin-top: 120px;
+	margin-bottom: 5px;
+	margin-left: 50px;
+}
+
+.event-content h2 {
+	margin: 5px;
+	margin-bottom: 20px;
+	margin-left: 50px;
+}
+
